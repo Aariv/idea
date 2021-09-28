@@ -1,4 +1,4 @@
-package com.codingdojo.Idea;
+package com.ariv.Idea;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

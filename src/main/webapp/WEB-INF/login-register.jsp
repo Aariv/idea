@@ -16,6 +16,9 @@
 				color: red;
 				font-style: italic;
 			}
+			.error-message{
+   				color: red;
+			}
 		</style>
 	<title>Ideas</title>
 </head>
@@ -25,7 +28,7 @@
 				<h2>Register</h2>
 			 	<div class="form-group">
 			        <form:label path="name">Name</form:label>
-			        <form:errors path="name"/>
+			        <form:errors class=".error-message" path="name"/>
 			        <form:input class="form-control" path="name" />
 			    </div>
 			    <div class="form-group">
